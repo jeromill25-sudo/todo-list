@@ -120,3 +120,92 @@ li button {
     color: white;
     cursor: pointer;
 }
+
+/* TABLETS (min-width: 768px) */
+@media (min-width: 768px) {
+    main {
+        padding: 5rem 4rem; /* más espacio horizontal */
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    form, .formulario {
+        width: 80%; /* no ocupa todo el ancho */
+        padding: 3rem;
+    }
+
+    textarea {
+        height: 25rem;
+        font-size: 2.2rem;
+        padding: 1.5rem;
+    }
+
+    button {
+        font-size: 3rem;
+        width: 18rem;
+        height: 12rem;
+        padding: 2.5rem;
+    }
+
+    h2 {
+        font-size: 4.5rem;
+    }
+
+    li {
+        font-size: 3.5rem;
+        padding: 1.5rem;
+        margin: 2.5rem;
+    }
+
+    li button {
+        font-size: 1.7rem;
+        padding: 0.3rem 0.7rem;
+    }
+}
+
+/* DESKTOP (min-width: 1024px) */
+@media (min-width: 1024px) {
+    main {
+        padding: 5rem 8rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    form, .formulario {
+        width: 60%;
+        padding: 4rem;
+    }
+
+    textarea {
+        width: 50rem;
+        height: 30rem;
+        font-size: 2.5rem;
+        padding: 2rem;
+    }
+
+    button {
+        font-size: 4rem;
+        width: 20rem;
+        height: 14rem;
+        padding: 3rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    li {
+        font-size: 4rem;
+        padding: 2rem;
+        margin: 3rem;
+    }
+
+    li button {
+        font-size: 2rem;
+        padding: 0.5rem 1rem;
+    }
+}
