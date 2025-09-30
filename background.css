@@ -9,6 +9,11 @@
         background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%,#0b0b2b);
         position: relative;
         overflow:scroll;
+        scrollbar-width: none;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;
+        background: transparent; /* opcional */
     }
     html, body {
         margin: 0;
@@ -17,7 +22,11 @@
         height: 100%;
         overflow: scroll; /* evita scroll */
     }
-    
+    html::-webkit-scrollbar {
+        width: 0px;
+        background: transparent; /* opcional */
+        scrollbar-width: none;
+    }
     .stars {
         width: 1px;
         height: 1px;

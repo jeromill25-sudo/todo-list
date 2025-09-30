@@ -181,8 +181,8 @@ li button {
     }
 
     textarea {
-        width: 50rem;
-        height: 30rem;
+        width: 45rem;
+        height: 15rem;
         font-size: 2.5rem;
         padding: 2rem;
     }
@@ -208,4 +208,13 @@ li button {
         font-size: 2rem;
         padding: 0.5rem 1rem;
     }
+}
+@media (min-width: 1080px) {
+    textarea {
+        width: 45rem;
+        height: 20rem;
+        font-size: 2.5rem;
+        padding: 2rem;
+    }
+
 }
