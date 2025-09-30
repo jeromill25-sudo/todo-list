@@ -102,6 +102,8 @@ li {
     border: 0.2rem solid;
     margin: 2rem;
     padding: 1rem;
+    word-wrap: break-word; /* rompe palabras largas */
+    overflow-wrap: break-word; /* estándar moderno */
 }
 
 li:hover{
