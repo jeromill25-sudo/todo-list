@@ -106,9 +106,7 @@ li {
     overflow-wrap: break-word; /* estándar moderno */
 }
 
-li:hover{
-    font-size: 2.5rem;
-}
+
 li button {
     font-size: 1.5rem;   
     width: auto;         
