@@ -9,7 +9,7 @@ body{
     width: 100%;
     min-height: 100vh; /* crece con el contenido */
     font-family: Arial, sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 main{
     width: 100%;
@@ -74,17 +74,17 @@ button{
 button:hover{
     box-shadow: 0px 0px 3px 5px white;
     font-size: 2rem;
-    width: 10rem;
+    width: 13rem;
     height: 8rem;
-    transition: 1s;
+    transition: 0.5s;
 }
 h2{
     font-size: 4rem;
     padding-top: 2rem;
 }
 .section2{
-    max-width:90%;
-    max-height: 80vh;
+    width:auto;
+    height: auto;
     display:flex;
     flex-direction: column;
 }
@@ -117,6 +117,13 @@ li button {
     background: transparent;
     color: white;
     cursor: pointer;
+}
+li button:hover{
+    box-shadow: none;
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    transition: 0.5s;
 }
 
 /* TABLETS (min-width: 768px) */
