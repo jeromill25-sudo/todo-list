@@ -13,7 +13,7 @@ body{
 }
 main{
     width: 100%;
-    min-height: 100vh; /* al menos toda la pantalla */
+    height: 100vh; /* al menos toda la pantalla */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,6 +123,8 @@ li button {
 @media (min-width: 768px) {
     main {
         padding: 5rem 4rem; /* más espacio horizontal */
+        width: 100%;
+        height: 100%;
     }
 
     h1 {
